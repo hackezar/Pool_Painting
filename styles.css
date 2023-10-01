@@ -1,3 +1,92 @@
-.test {
-    color: red;
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.header-links{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 8px;
+}
+
+.header-links > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 15px;
+    color:#F9FAF8
+
+}
+
+.header-logo {
+    display: flex;
+    flex:1;
+    justify-content: flex-start;
+}
+
+.logo {
+    height: 10vh;
+    width: 10vh;
+    padding: 10px;
+}
+
+.main {
+    background: #1f2937;
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+
+}
+
+.main-text {
+    background: #1f2937;
+    margin:0;
+}
+
+.main-title-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.main-subtext {
+    color: #F9FAF8;
+    font-weight:1
+}
+
+.main-left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.main-right {
+display: flex;
+flex: 1;
+justify-content: center;
+}
+
+.second-section-header {
+    display: flex;
+    flex: 1;
+}
+
+.second-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.second-section-box {
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
